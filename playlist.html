@@ -1,1 +1,6 @@
-<p>10-01-2018 Дугаар 1 Ч.Баттөгс Salesforce</p>
+<div class="guest-intro" ng-repeat="guest in guests" track by $index>
+	<img src="guests/dugaar-"+$index+".jpg">
+	<span>{{guest.episode}}</span>
+	<span>{{guest.name}}</span>
+	<span>{{guest.date}}</span>
+</div>

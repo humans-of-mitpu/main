@@ -14,3 +14,7 @@ a:visited, a:active, a:hover {
     padding: 0px 5px;
     border-left-color: red;
 }
+
+.guest-intro {
+	padding: 10px 20px;
+}

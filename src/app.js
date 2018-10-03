@@ -22,4 +22,10 @@ angular.module('mitpuApp.playlist', ['ngRoute'])
 
 .controller('mainCtrl', [function() {
 
+	$scope.guests = [
+		{
+			episode: "Дугаар-1",
+			name: "Ч Баттөгс",
+			date: "10/01/2018"
+		}];
 }]);
