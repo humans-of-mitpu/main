@@ -20,7 +20,7 @@ angular.module('mitpuApp.playlist', ['ngRoute'])
   });
 }])
 
-.controller('mainCtrl', [function() {
+.controller('mainCtrl', [function($scope) {
 
 	$scope.guests = [
 		{
