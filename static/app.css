@@ -17,4 +17,12 @@ a:visited, a:active, a:hover {
 
 .guest-intro {
 	padding: 10px 20px;
+	width: 250px;
+}
+.guest-pic {
+		width: 100%;
+	}
+.guest-title {
+	padding: 5px 0px;
+	text-align: center;
 }

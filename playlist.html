@@ -1,6 +1,6 @@
-<div class="guest-intro" ng-repeat="guest in guests" track by $index>
-	<img src="guests/dugaar-"+$index+".jpg">
-	<span>{{guest.episode}}</span>
+<div class="guest-intro" ng-repeat="guest in guests">
+	<img class="guest-pic" src="guests/dugaar-{{guest.id}}.jpg">
+	<div class="guest-title">
 	<span>{{guest.name}}</span>
-	<span>{{guest.date}}</span>
+	<span>{{guest.desc}}</span></div>
 </div>
