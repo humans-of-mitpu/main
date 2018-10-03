@@ -1,0 +1,16 @@
+body {
+	font-family: Muli,Helvetica,Arial,sans-serif;
+    color: #000;
+}
+
+a:visited, a:active, a:hover {
+    color: #000;
+}
+
+#playlist-container-title {
+	margin: 10px 20px;
+    border-left-style: solid;
+    border-left-width: 4px;
+    padding: 0px 5px;
+    border-left-color: red;
+}
