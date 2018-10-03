@@ -1,6 +1,11 @@
-<div class="guest-intro" ng-repeat="guest in guests">
-	<img class="guest-pic" src="guests/dugaar-{{guest.id}}.jpg">
-	<div class="guest-title">
-	<span>{{guest.name}}</span>
-	<span>{{guest.desc}}</span></div>
+<div id="playlist-container-title"><a >Ярилцлагын сан</a>
 </div>
+<ul class="list-unstyled">
+<li class="media guest-intro" ng-repeat="guest in guests">
+	<img class="mr-3 shadow p-3 mb-5 bg-white rounded guest-pic " src="guests/dugaar-{{guest.id}}.jpg">
+	<div class="media-body">
+	<h5 class="mt-0 mb-1">{{guest.name}}, {{guest.title}}</h5>
+	<h6>{{guest.desc}}</h6>
+	</div>
+</li>
+</ul>

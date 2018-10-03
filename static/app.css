@@ -14,15 +14,15 @@ a:visited, a:active, a:hover {
     padding: 0px 5px;
     border-left-color: red;
 }
-
 .guest-intro {
-	padding: 10px 20px;
-	width: 250px;
+	max-width: 400px;
+	padding: 5px 20px;
 }
 .guest-pic {
-		width: 100%;
+	width: 180px;
 	}
-.guest-title {
-	padding: 5px 0px;
-	text-align: center;
+.about {
+	    padding: 5px 60px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
